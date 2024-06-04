@@ -1,0 +1,13 @@
+- System Admin: 
+  levanc
+  9123
+
+- Service Manager:
+  tranthib
+  5678
+
+- Student:
+  nguyenvana
+  1234
+
+Or you could head to database query file (.sql) to see data insertions
