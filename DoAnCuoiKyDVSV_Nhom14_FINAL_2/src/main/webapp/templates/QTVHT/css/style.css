@@ -1,0 +1,99 @@
+       @charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.login-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.login-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-item:hover {
+    background-color: #f0f0f0;
+}
+
+.login-item span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.login-actions {
+    display: flex;
+    align-items: center;
+}
+
+.login-actions a {
+    text-decoration: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.view {
+    background-color: #4caf50;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.update {
+    background-color: #2196f3;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.delete {
+    background-color: #f44336;
+    color: #fff;
+}
+  
+    .account-container {
+        text-align: center;
+    }
+
+    .add-account-button {
+        display: inline-block;
+        margin-bottom: 20px; /* Thêm khoảng cách dưới nút */
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4caf50;
+        color: #fff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .add-account-button:hover {
+        background-color: #45a049;
+    }
+   

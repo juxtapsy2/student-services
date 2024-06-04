@@ -1,0 +1,30 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>DoAnCuoiKyDVSV_Nhom14_FINAL_2</groupId>
+  <artifactId>DoAnCuoiKyDVSV_Nhom14_FINAL_2</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+	<dependency>
+	    <groupId>org.owasp.esapi</groupId>
+	    <artifactId>esapi</artifactId>
+	    <version>2.2.0.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.owasp.encoder</groupId>
+	    <artifactId>encoder</artifactId>
+	    <version>1.2.3</version>
+	</dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

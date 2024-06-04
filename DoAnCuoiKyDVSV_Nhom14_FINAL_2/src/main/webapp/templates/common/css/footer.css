@@ -1,0 +1,12 @@
+@charset "UTF-8";
+ /* Add styles for the footer here */
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2e4ead;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            margin-left: 100px; /* Adjust the margin based on your menu's height */
+  }
